@@ -48,6 +48,19 @@ public class App
 
         input.close();
 
+        int x;
+        int y;
+        int result;
+        result = 10 + 5;
+
+        System.out.println("The result is " + result);
+        result = 10 - 5;
+        System.out.println("The result is " + result);
+        result = 10 * 5;
+        System.out.println("The result is " + result);
+        result = 10 / 5;
+        System.out.println("The result is " + result);
+
 
 
     }

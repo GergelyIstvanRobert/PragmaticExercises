@@ -1,4 +1,6 @@
 package org.FastTrackIt;
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.*;import java.io.*;
 import inputprocessingoutput2.MadLib;
 import java.util.Scanner;
@@ -60,6 +62,26 @@ public class App
         System.out.println("The result is " + result);
         result = 10 / 5;
         System.out.println("The result is " + result);
+
+        LocalDate today = LocalDate.now();
+        LocalDate birthDate = LocalDate.of(1988,12,14);
+        int years = Period.between(birthDate,today).getYears();
+        System.out.println(today);
+        System.out.println(birthDate);
+        System.out.println(years);
+
+        int currentAge = 25;
+        int retireAge = 65;
+        result = retireAge - currentAge;
+        System.out.println("What is your current age?");
+        System.out.println("25");
+        System.out.println("At what age would you like to retire?");
+        System.out.println("65");
+        System.out.println("You have " +result+ " years left until you can retire.");
+        int currentYear = 2015;
+        result = currentYear + result;
+        System.out.println("It's 2015, so you can retire in " + result);
+
 
 
 

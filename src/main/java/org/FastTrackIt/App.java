@@ -1,6 +1,10 @@
 package org.FastTrackIt;
-
+import java.util.*;import java.io.*;
+import inputprocessingoutput2.MadLib;
 import java.util.Scanner;
+
+import static java.lang.System.in;
+import static java.lang.System.setOut;
 
 /**
  * Hello world!
@@ -32,6 +36,19 @@ public class App
                 "    you're looking for.\"";
         sentence = whatIsThe + these + who + obi + says + looking;
         System.out.println(sentence);
+
+        Scanner input = new Scanner(System.in);
+
+        String noun= "Dog";
+        String verb = "Walking";
+        String adjective = "Blue";
+        String adverb = "quickly";
+        String story = " Do you " +verb+  " your " +adjective+noun+adverb+ "? That's hilarious! ";
+        System.out.println(story);
+
+        input.close();
+
+
 
     }
 

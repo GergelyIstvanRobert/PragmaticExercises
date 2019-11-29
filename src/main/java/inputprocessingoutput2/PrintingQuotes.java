@@ -9,5 +9,8 @@ public class PrintingQuotes {
     String looking = "\"These aren't the droids\n" +
             "    you're looking for.\"";
 
+    String sentence = whatIsThe + these + who + obi + says + looking;
+
+
 
 }

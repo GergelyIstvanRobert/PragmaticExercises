@@ -6,3 +6,4 @@ public class SimpleMath {
     int result;
 
 }
+

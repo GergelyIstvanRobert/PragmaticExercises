@@ -1,15 +1,26 @@
 package inputprocessingoutput2;
 
-public class PrintingQuotes {
-    String whatIsThe = "What is the quote?";
-    String these = " These aren't the droids you're looking for.";
-    String who = "\nWho said it? ";
-    String obi = " Obi-Wan Kenobi";
-    String says = "\nObi-Wan Kenobi says, ";
-    String looking = "\"These aren't the droids\n" +
-            "    you're looking for.\"";
+import java.util.Scanner;
 
-    String sentence = whatIsThe + these + who + obi + says + looking;
+public class PrintingQuotes {
+    public static void main(String[] args) {
+
+        System.out.println("What is your name?");
+        String name;
+        Scanner sc = new Scanner(System.in);
+        name = sc.nextLine();
+        System.out.println("You have a car?");
+        String car;
+        car = sc.nextLine();
+        System.out.println();
+
+
+
+    }
+
+
+
+
 
 
 

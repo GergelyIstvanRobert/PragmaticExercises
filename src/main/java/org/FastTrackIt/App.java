@@ -18,35 +18,45 @@ public class App
     {
         System.out.println( "Hello");
 
-        String whatIsYourName = "What is your name?";
-        String name = " Brian";
-        String greeting = "\nHello ";
-        String name1 = ", Brian";
-        String meet = ", nice to meet you!";
-        String sentence = whatIsYourName + name+ greeting + name1 + meet;
-        System.out.println(sentence);
+        System.out.println("What is your name? ");
+        String name;
+        Scanner sc = new Scanner(System.in);
+        name = sc.nextLine();
 
-        String s="Homer";
-        System.out.println(s.length());
+        System.out.println("Hello, " + name + ", nice to meet you!");
 
-        String whatIsThe = "What is the quote?";
-        String these = " These aren't the droids you're looking for.";
-        String who = "\nWho said it? ";
-        String obi = " Obi-Wan Kenobi";
-        String says = "\nObi-Wan Kenobi says, ";
-        String looking = "\"These aren't the droids\n" +
-                "    you're looking for.\"";
-        sentence = whatIsThe + these + who + obi + says + looking;
-        System.out.println(sentence);
+
+        System.out.println("What is the input string?");
+        String s = "Homer";
+        Scanner scanner = new Scanner(System.in);
+        s = sc.nextLine();
+        System.out.println("Homer has " + s.length() + " characters.");
+
+
+
+        System.out.println("What is your name?");
+        String name1;
+        Scanner sc1 = new Scanner(System.in);
+        name1 = sc1.nextLine();
+        System.out.println("You have a car?");
+        String car;
+        car = sc.nextLine();
+        System.out.println(name1+car);
+
+
+
+
 
         Scanner input = new Scanner(System.in);
-
         String noun= "Dog";
         String verb = "Walking";
         String adjective = "Blue";
         String adverb = "quickly";
         String story = " Do you " +verb+  " your " +adjective+noun+adverb+ "? That's hilarious! ";
         System.out.println(story);
+
+
+
 
         input.close();
 

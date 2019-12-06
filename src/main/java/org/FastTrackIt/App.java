@@ -30,7 +30,7 @@ public class App
         String s = "Homer";
         Scanner scanner = new Scanner(System.in);
         s = sc.nextLine();
-        System.out.println("Homer has " + s.length() + " characters.");
+        System.out.println("has " + s.length() + " characters.");
 
 
 
@@ -41,7 +41,10 @@ public class App
         System.out.println("You have a car?");
         String car;
         car = sc.nextLine();
-        System.out.println(name1+car);
+        System.out.println("what car do you have?");
+        String what =sc.nextLine();
+
+        System.out.println(name1 +" said, " +  car + " I have a car a "+ what);
 
 
 

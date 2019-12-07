@@ -67,13 +67,7 @@ public class App
 
 
 
-        Scanner input = new Scanner(System.in);
 
-
-
-
-
-        input.close();
 
         int x;
         int y;

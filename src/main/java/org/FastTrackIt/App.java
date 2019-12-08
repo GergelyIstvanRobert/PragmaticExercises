@@ -56,31 +56,21 @@ public class App
         System.out.println("Enter a adverb :");
         String adverb = keyboardInput.nextLine();
 
-        System.out.println("Do you" + verb + "your" + adjective + noun + adverb + "That's hilarious! ");
+        System.out.println("Do you " + verb + " your " + adjective + " " + noun + " " +  adverb + " That's hilarious!");
 
+        double first,second;
+        Scanner keyboard= new Scanner(System.in);
+        System.out.print("What is your first number? ");
+        first=keyboard.nextDouble();
+        System.out.print("What is your second number? ");
+        second=keyboard.nextDouble();
+        double result = first + second;
+        System.out.println(first + second);
+        double result1 = first / second;
+        System.out.println(first/second);
+        double result2 = first * second;
+        System.out.println(first*second);
 
-
-
-
-
-
-
-
-
-
-
-        int x;
-        int y;
-        int result;
-        result = 10 + 5;
-
-        System.out.println("The result is " + result);
-        result = 10 - 5;
-        System.out.println("The result is " + result);
-        result = 10 * 5;
-        System.out.println("The result is " + result);
-        result = 10 / 5;
-        System.out.println("The result is " + result);
 
         LocalDate today = LocalDate.now();
         LocalDate birthDate = LocalDate.of(1988,12,14);
@@ -89,17 +79,7 @@ public class App
         System.out.println(birthDate);
         System.out.println(years);
 
-        int currentAge = 25;
-        int retireAge = 65;
-        result = retireAge - currentAge;
-        System.out.println("What is your current age?");
-        System.out.println("25");
-        System.out.println("At what age would you like to retire?");
-        System.out.println("65");
-        System.out.println("You have " +result+ " years left until you can retire.");
-        int currentYear = 2015;
-        result = currentYear + result;
-        System.out.println("It's 2015, so you can retire in " + result);
+
 
 
 

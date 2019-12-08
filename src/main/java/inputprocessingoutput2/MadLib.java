@@ -13,7 +13,7 @@ public class MadLib {
         String adjective = keyboardInput.nextLine();
         System.out.println("Enter a adverb :");
         String adverb = keyboardInput.nextLine();
-        System.out.println("Do you " + verb + "your " + adjective + noun + adverb + " That's hilarious! ");
+        System.out.println("Do you " + verb + " your " + adjective + " " + noun + " " +  adverb + " That's hilarious!");
 
 
 

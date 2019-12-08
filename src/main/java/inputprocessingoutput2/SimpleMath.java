@@ -12,8 +12,13 @@ public class SimpleMath {
         first=keyboard.nextDouble();
         System.out.print("What is your second number? ");
         second=keyboard.nextDouble();
+        double result = first + second;
+        System.out.println(first + second);
+        double result1 = first / second;
+        System.out.println(first/second);
+        double result2 = first * second;
+        System.out.println(first*second);
 
-        System.out.println("("+first+"+"+second+") /2 is ..."+((first+second)/2));
     }
 
 }

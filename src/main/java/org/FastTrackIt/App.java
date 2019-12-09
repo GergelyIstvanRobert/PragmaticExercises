@@ -26,7 +26,7 @@ public class App
         System.out.println("Hello, " + name + ", nice to meet you!");
 
 
-        System.out.println("What is the input string?");
+        System.out.println("What is the word you want to measure?");
         String s = "Homer";
         Scanner scanner = new Scanner(System.in);
         s = sc.nextLine();
@@ -79,12 +79,22 @@ public class App
         System.out.println(birthDate);
         System.out.println(years);
 
+        Scanner scanner1 = new Scanner(System.in);
+
+        System.out.println("What is the length of the room in feet? :");
+        double length = scanner.nextDouble();
+        System.out.println("What is the width of the room in feet? :");
+        double width = scanner.nextDouble();
+        double area = length * width;
+        System.out.println("The area is:" + area);
+
 
 
 
 
 
     }
+
 
 
 }

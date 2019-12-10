@@ -1,18 +1,15 @@
 package org.FastTrackIt;
+
 import java.time.LocalDate;
 import java.time.Period;
-import java.util.*;import java.io.*;
-import inputprocessingoutput2.MadLib;
+import java.util.Calendar;
 import java.util.Scanner;
-
-import static java.lang.System.in;
-import static java.lang.System.setOut;
 
 /**
  * Hello world!
  *
  */
-public class App 
+public class App
 {
     public static void main( String[] args )
     {
@@ -71,23 +68,30 @@ public class App
         double result2 = first * second;
         System.out.println(first*second);
 
+        int currentAge,retireAge;
+        Scanner keyboard1 = new Scanner(System.in);
+        System.out.print("What is your current age? ");
+        currentAge=keyboard.nextInt();
+        System.out.print("At what age would you like to retire? ");
+        retireAge=keyboard.nextInt();
+        result = retireAge-currentAge;
+        System.out.println("You have " +result+ " years left until you can retire. ");
+        int thisYear= Calendar.getInstance().get(Calendar.YEAR);
+        result = thisYear+ retireAge-currentAge;
+        System.out.println("It's" + thisYear + "so you can retire in " + result );
 
-        LocalDate today = LocalDate.now();
-        LocalDate birthDate = LocalDate.of(1988,12,14);
-        int years = Period.between(birthDate,today).getYears();
-        System.out.println(today);
-        System.out.println(birthDate);
-        System.out.println(years);
 
-        Scanner scanner1 = new Scanner(System.in);
 
-        System.out.println("What is the length of the room in feet? :");
-        double length = scanner.nextDouble();
-        System.out.println("What is the width of the room in feet? :");
-        double width = scanner.nextDouble();
-        double area = length * width;
-        System.out.println("The area is:" + area);
 
+//        Scanner scanner1 = new Scanner(System.in);
+
+//        System.out.println("What is the length of the room in feet? :");
+//        double length = scanner.nextDouble();
+//        System.out.println("What is the width of the room in feet? :");
+//        double width = scanner.nextDouble();
+//        double area = length * width;
+//        System.out.println("The area is:" + area);
+//
 
 
 

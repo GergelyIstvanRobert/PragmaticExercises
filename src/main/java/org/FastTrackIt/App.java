@@ -68,7 +68,9 @@ public class App
         double result2 = first * second;
         System.out.println(first*second);
 
+
         int currentAge,retireAge;
+
         Scanner keyboard1 = new Scanner(System.in);
         System.out.print("What is your current age? ");
         currentAge=keyboard.nextInt();
